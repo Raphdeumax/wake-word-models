@@ -1,12 +1,16 @@
 {
   "type": "micro",
-  "model": "https://raw.githubusercontent.com/Raphdeumax/wake-word-models/main/ok_groot.tflite",
-  "wake_word": "ok_groot",
-  "authors": ["raphd"],
+  "wake_word": "OK Groot",
+  "author": "Raphdeumax",
   "website": "https://github.com/Raphdeumax/wake-word-models",
-  "citation": "Custom OK Groot wake word trained with microWakeWord",
+  "model": "ok_groot.tflite",
+  "trained_languages": ["fr"],
+  "version": 1,
   "micro": {
     "probability_cutoff": 0.5,
-    "sliding_window_average_size": 10
+    "feature_step_size": 10,
+    "sliding_window_size": 10,
+    "tensor_arena_size": 37000,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
