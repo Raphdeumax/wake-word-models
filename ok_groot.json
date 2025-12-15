@@ -3,7 +3,7 @@
   "wake_word": "OK Groot",
   "author": "Raphdeumax",
   "website": "https://github.com/Raphdeumax/wake-word-models",
-  "model": "ok_groot.tflite",
+  "model": "https://github.com/Raphdeumax/wake-word-models/releases/download/v1.0-experimental/ok_groot.tflite",
   "trained_languages": ["fr"],
   "version": 1,
   "micro": {
