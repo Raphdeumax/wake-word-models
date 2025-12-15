@@ -3,9 +3,10 @@
   "wake_word": "OK Groot",
   "author": "Raphdeumax",
   "website": "https://github.com/Raphdeumax/wake-word-models",
-  "model": "ok_groot.tflite",
+  "model": "https://github.com/Raphdeumax/wake-word-models/releases/download/v2.0/ok_groot_v2.tflite",
   "trained_languages": ["fr"],
-  "version": 3,
+  "version": 2,
+  "description": "Trained with 1000 samples (100 voice recordings + 900 TTS with emotional variations)",
   "micro": {
     "probability_cutoff": 0.5,
     "feature_step_size": 10,
