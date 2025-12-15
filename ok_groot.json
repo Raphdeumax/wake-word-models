@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "model": "https://raw.githubusercontent.com/Raphdeumax/wake-word-models/main/ok_groot.tflite",
+  "wake_word": "ok_groot",
+  "authors": ["raphd"],
+  "website": "https://github.com/Raphdeumax/wake-word-models",
+  "citation": "Custom OK Groot wake word trained with microWakeWord",
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_average_size": 10
+  }
+}
