@@ -1,9 +1,9 @@
 ﻿{
   "type": "micro",
-  "wake_word": "OK Groot",
+  "wake_word": "okay_groot",
   "author": "Raphdeumax",
   "website": "https://github.com/Raphdeumax/wake-word-models",
-  "model": "https://github.com/Raphdeumax/wake-word-models/releases/download/v2.0/okay_groot.tflite",
+  "model": "okay_groot.tflite",
   "trained_languages": ["fr"],
   "version": 2,
   "micro": {
